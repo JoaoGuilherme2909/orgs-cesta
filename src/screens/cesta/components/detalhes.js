@@ -64,14 +64,7 @@ const estilos = StyleSheet.create({
     botao: {
         marginTop: 16,
         backgroundColor: "#4F987B",
-        paddingVertical: 8,
+        paddingVertical: 16,
         borderRadius: 6
     },
-    textoBotao: {
-        color: "white",
-        textAlign: "center",
-        fontSize: 16,
-        fontFamily: "MontserratBold",
-        lineHeight: 26   
-    }
 })

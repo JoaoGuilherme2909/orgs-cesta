@@ -3,7 +3,7 @@ import Texto from "../../../components/Text"
 
 export default function Botao({onPress, children, style}){
     return <>
-        <TouchableOpacity style={[estilos.Botao, style]} onPress={onPress}>
+        <TouchableOpacity style={[estilos.Botao]} onPress={onPress}>
             <Texto style={[estilos.textoBotao, style]}>{children}</Texto>
         </TouchableOpacity>
     </>  

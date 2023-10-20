@@ -1,4 +1,4 @@
-import { StatusBar, SafeAreaView, View} from 'react-native';
+import { StatusBar, SafeAreaView} from 'react-native';
 import Cesta from './src/screens/cesta/Cesta';
 import { 
   useFonts, 
@@ -19,7 +19,7 @@ export default function App() {
   }
 
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{ flex: 1 }}>
       <StatusBar />
       <Cesta {...cesta} />
     </SafeAreaView>
